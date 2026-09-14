@@ -1,5 +1,12 @@
 [
     {
+        "project": "ARTCASSA",
+        "company": "Thesis",
+        "desc": "ARTCASSA is an e-commerce platform that uses cryptocurrency concepts for the art market, supporting buying, selling, auctioning, and bidding on artwork. Users top up Artcoins to fund purchases and secure bids, guaranteeing committed and verified transactions across the marketplace.",
+        "role": "Developer",
+        "year": "2017"
+    },
+    {
         "project": "Freelance",
         "company": "Freelance",
         "desc": "Independent software practice delivering end-to-end web applications and systems for client projects from 2017 to 2025. Built educational games, a Management Information System, an E-Library System, a gallery, and blogs using PHP, JavaScript, CodeIgniter, jQuery, and Bootstrap, alongside quality assurance, requirements analysis, and technical consulting work.",
@@ -38,7 +45,7 @@
         "project": "Venture Projects",
         "company": "OP Solutions PH",
         "desc": "These are venture projects initiated by the company",
-        "role": "Team Lead, Developer, QA",
+        "role": "Team Lead, Developer",
         "year": "2023"
     },
     {
@@ -59,7 +66,7 @@
         "project": "KMD",
         "company": "Yondu inc - KMD",
         "desc": "KonsultaMD is a healthcare SaaS platform that provides patients with convenient access to licensed and specialized healthcare professionals, institutions, and digital healthcare services, including online consultations and medical advice.",
-        "role": "Backend Developer, QA",
+        "role": "Developer, QA",
         "year": "2024"
     },
     {
