@@ -2,7 +2,6 @@ import Link from "next/link";
 import { profile } from "@/lib/data";
 
 const NAV_LINKS = [
-    { href: "/", label: "Home" },
     { href: "/work-history", label: "Work History" },
     { href: "/projects", label: "Projects" },
 ];
