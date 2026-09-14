@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Mc Rolls Angeles",
+        "title": "Full Stack Developer",
+        "country": "Philippines",
+        "email": "mcrollsangeles@gmail.com",
+        "summary": "Full Stack Developer with 7+ years of experience building web applications and systems across government, healthcare, SaaS, and e-commerce domains. Proficient in PHP, JavaScript, and Python using Laravel, CodeIgniter, React, Next.js, Node.js, Vue, and Angular, backed by SQL, MySQL, PostgreSQL, and NoSQL databases. Proven as a sole developer, team lead, and project lead - handling requirements analysis, system design, QA, deployment, and production support end-to-end. Experienced with Git (GitHub/GitLab), Jira, ClickUp, Jenkins, and cloud platforms (AWS, Azure), and comfortable serving as a Business Analyst and System Analyst when projects require it.",
+        "avatar": "/my-profile.jpeg",
+        "socials": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/mcrollsangeles"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mc-rolls-angeles/"
+            }
+        ]
+    }
+]

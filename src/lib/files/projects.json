@@ -1,0 +1,107 @@
+[
+    {
+        "project": "Freelance",
+        "company": "Freelance",
+        "desc": "Independent software practice delivering end-to-end web applications and systems for client projects from 2017 to 2025. Built educational games, a Management Information System, an E-Library System, a gallery, and blogs using PHP, JavaScript, CodeIgniter, jQuery, and Bootstrap, alongside quality assurance, requirements analysis, and technical consulting work.",
+        "role": "Web Developer, QA, Business Analyst, Project Consultant",
+        "year": "2017 - 2025"
+    },
+    {
+        "project": "Various Landing Sites",
+        "company": "Gleent Incorporated",
+        "desc": "Developed and maintained various web-based projects, including e-commerce landing pages, blogs, gaming websites, and interactive forms. Worked on implementing responsive layouts, user-facing features, and integrations based on the requirements of each project.",
+        "role": "Developer, Analyst",
+        "year": "2018"
+    },
+    {
+        "project": "GR",
+        "company": "OP Solutions PH",
+        "desc": "General Release focuses on 3 iOS-based applications; PULL, PUSH, and SL. These applications handle operators account management, customers management, orders, sales, and other business operations. Armstrong API manages the data for all GR apps and the server.",
+        "role": "API Developer Lead, API Tester",
+        "year": "2021"
+    },
+    {
+        "project": "LITE",
+        "company": "OP Solutions PH",
+        "desc": "It is a web based application handling operators, account and customers management, orders, sales, and other business operations.",
+        "role": "Team Lead",
+        "year": "2022"
+    },
+    {
+        "project": "Armstrong AMI",
+        "company": "OP Solutions PH",
+        "desc": "AMI has two parts; AMI Web and AMI Reports. AMI Web handles account and user management, configurations, and settings. AMI Reports handles reports generation of all the masters and transactional data.",
+        "role": "Project Lead, QA",
+        "year": "2022"
+    },
+    {
+        "project": "Venture Projects",
+        "company": "OP Solutions PH",
+        "desc": "These are venture projects initiated by the company",
+        "role": "Team Lead, Developer, QA",
+        "year": "2023"
+    },
+    {
+        "project": "Housify",
+        "company": "Yondu inc - 917ventures",
+        "desc": "Housify is a web-based application offering Content Management Systems and a Corporate site. It follows the rules of subscription-based business models and offers listing and management services for the client.",
+        "role": "Developer, Analyst",
+        "year": "2023"
+    },
+    {
+        "project": "Petpal / Pettr",
+        "company": "Yondu inc - 917ventures",
+        "desc": "Petpal is modeled as Software as a Service (SaaS). It has a mobile application for Pet Owners and a web application for Veterinarians. The services it offers ranges from quick chats, teleconsultations, home visit appointments, clinic visits and more.",
+        "role": "Developer",
+        "year": "2024"
+    },
+    {
+        "project": "KMD",
+        "company": "Yondu inc - KMD",
+        "desc": "KonsultaMD is a healthcare SaaS platform that provides patients with convenient access to licensed and specialized healthcare professionals, institutions, and digital healthcare services, including online consultations and medical advice.",
+        "role": "Backend Developer, QA",
+        "year": "2024"
+    },
+    {
+        "project": "MI Global",
+        "company": "Bullshark",
+        "desc": "MI Global is a web-based travel and itinerary planning platform for organizing trips, accommodations, activities, events, and budgets, helping users estimate travel costs.",
+        "role": "Supporting Developer, QA",
+        "year": "2025"
+    },
+    {
+        "project": "JTI",
+        "company": "Bullshark",
+        "desc": "JTI is a workforce management and payroll platform managing employee assignments, work hours, overtime, leave, holidays, shifts, schedules, allowances, pay slips, and payroll information.",
+        "role": "Sole Developer, System Analyst",
+        "year": "2025"
+    },
+    {
+        "project": "La Boucherie Store",
+        "company": "Bullshark",
+        "desc": "La Boucherie Store is an e-commerce platform for meat products with custom preparation options, checkout, order management, reporting, and an admin portal.",
+        "role": "Supporting Developer, QA",
+        "year": "2025"
+    },
+    {
+        "project": "Everlasting",
+        "company": "Bullshark",
+        "desc": "Everlasting is a SaaS event management platform for creating events, inviting guests, tracking attendance, photo services, albums, comments, and reviews. An admin portal supports user and content management.",
+        "role": "Developer, QA",
+        "year": "2026"
+    },
+    {
+        "project": "FSWS POMA",
+        "company": "Bullshark",
+        "desc": "POMA is a government platform for Protection of Minors Register certificate applications, payments, processing, and certificate management. A back-office portal supports users, entities, requests, and reports.",
+        "role": "Sole Developer, System Analyst",
+        "year": "2026"
+    },
+    {
+        "project": "Malta Mediation Center (MMC)",
+        "company": "Bullshark",
+        "desc": "MMC is a government case management platform supporting mediation cases, parties, mediators, scheduling, payments, and document management. A back-office portal supports user and cases management, mediators, documents, and reports.",
+        "role": "Sole Developer, System Analyst",
+        "year": "2026"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "company": "Freelance",
+        "desc": [
+            "Operated as an independent consultant delivering end-to-end software services spanning development, quality assurance, and technical advisory.",
+            "Designed and developed web applications and systems using native PHP, JavaScript, CSS, and HTML, alongside CodeIgniter, jQuery, and Bootstrap.",
+            "Built a portfolio of web-based products including educational games, a Management Information System, an E-Library System, a gallery, and blogs.",
+            "Served as QA across multiple project-based software deliveries, defining test scenarios and acceptance criteria and executing unit, smoke, regression, and acceptance testing.",
+            "Advised and consulted on client-developed systems, analyzing and evaluating them to improve design and existing functionality.",
+            "Produced test documentation and performed unit and assembly testing as a software test engineer.",
+            "Managed a Discord community server and social media channels, handling content posts, customer chats, and queries.",
+            "Provided instruction and tutoring services.",
+            "Delivered video editing services."
+        ],
+        "year": "June 2017 - January 2025",
+        "totalYears": 8,
+        "titles": [
+            "Business Analyst",
+            "QA",
+            "Web Developer",
+            "Project Consultant",
+            "Social Media Administrator",
+            "Video Editor"
+        ]
+    },
+    {
+        "company": "Gleent Incorporated",
+        "desc": [
+            "Software Engineer Intern turned Web Developer utilizing Wordpress, Git, AngularJS, NodeJS, CodeIgniter, and Laravel."
+        ],
+        "year": "January 2018 - December 2018",
+        "totalYears": 1,
+        "titles": [
+            "Software Engineer Intern",
+            "Web Developer"
+        ]
+    },
+    {
+        "company": "University of Cabuyao",
+        "desc": [
+            "Teaching computer programming and IT-related courses to college and senior high school students.",
+            "Administrative work such as resource scheduling, standard template creation, organization management, project planning, and managing school page and group, and other social media accounts."
+        ],
+        "year": "June 2018 - May 2021",
+        "totalYears": 3,
+        "titles": [
+            "Faculty",
+            "Administrator"
+        ]
+    },
+    {
+        "company": "OP Solutions PH",
+        "desc": [
+            "Managed tickets, tasks, code, version control, and production releases of API, LITE, and AMI. (JIRA, Git)",
+            "Database administrative work such as checking and killing table locks, creating and documenting database change tickets, query optimizations, and indexing. (MySQL)",
+            "Led initiatives to improve projects across UI, UX, discussion processes, and code standards.",
+            "Improved existing database structures, refactored legacy code, and revised team task and ticket processes.",
+            "Spearheaded multiple teams and managed their expectations.",
+            "Served as a backup and support developer on other projects. (AngularJS, NodeJS, Laravel)",
+            "Took on additional roles beyond core responsibilities to fill team gaps."
+        ],
+        "year": "April 2021 - March 2023",
+        "totalYears": 2,
+        "titles": [
+            "API Developer",
+            "Team Lead",
+            "Project Lead"
+        ]
+    },
+    {
+        "company": "Yondu Inc",
+        "desc": [
+            "Built and deployed startup applications from scratch, handling both frontend and backend development.",
+            "Collaborated closely with the Project Manager to test, review, and validate application features before release.",
+            "Assisted in project planning by breaking down features into development tasks and estimating implementation timelines.",
+            "Documented APIs, development workflows, and analytics to support team collaboration and future maintenance."
+        ],
+        "year": "March 2023 - February 2025",
+        "totalYears": 2,
+        "titles": [
+            "Fullstack Software Engineer"
+        ]
+    },
+    {
+        "company": "Bullshark",
+        "desc": [
+            "Worked on 7 applications across government and commercial clients.",
+            "Served as main or sole developer on most projects and supporting developer on 2.",
+            "Performed development, system and business analysis, code reviews, testing, QA, deployment validation, troubleshooting, and production support.",
+            "Participated in requirements analysis, client sessions, and product demonstrations."
+        ],
+        "year": "January 2025 - Present",
+        "totalYears": 2,
+        "titles": [
+            "Full Stack Developer"
+        ]
+    }
+]

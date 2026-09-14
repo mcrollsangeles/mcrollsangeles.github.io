@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Next.js",
+        "category": "Frameworks & Libraries",
+        "type": "frontend",
+        "slug": "nextdotjs"
+    },
+    {
+        "name": "React",
+        "category": "Frameworks & Libraries",
+        "type": "frontend",
+        "slug": "react"
+    },
+    {
+        "name": "Laravel",
+        "category": "Frameworks & Libraries",
+        "type": "backend",
+        "slug": "laravel"
+    },
+    {
+        "name": "CodeIgniter",
+        "category": "Frameworks & Libraries",
+        "type": "backend",
+        "slug": "codeigniter"
+    },
+    {
+        "name": "Node.js",
+        "category": "Frameworks & Libraries",
+        "type": "backend",
+        "slug": "nodedotjs"
+    },
+    {
+        "name": "Vue.js",
+        "category": "Frameworks & Libraries",
+        "type": "frontend",
+        "slug": "vuedotjs"
+    },
+    {
+        "name": "Angular",
+        "category": "Frameworks & Libraries",
+        "type": "frontend",
+        "slug": "angular"
+    },
+    {
+        "name": "jQuery",
+        "category": "Frameworks & Libraries",
+        "type": "frontend",
+        "slug": "jquery"
+    },
+    {
+        "name": "WordPress",
+        "category": "CMS",
+        "type": "backend",
+        "slug": "wordpress"
+    },
+    {
+        "name": "Strapi",
+        "category": "CMS",
+        "type": "backend",
+        "slug": "strapi"
+    },
+    {
+        "name": "PHP",
+        "category": "Programming Languages",
+        "type": "backend",
+        "slug": "php"
+    },
+    {
+        "name": "JavaScript",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "javascript"
+    },
+    {
+        "name": "Python",
+        "category": "Programming Languages",
+        "type": "backend",
+        "slug": "python"
+    },
+    {
+        "name": "SQL",
+        "category": "Databases",
+        "type": "database",
+        "slug": ""
+    },
+    {
+        "name": "PostgreSQL",
+        "category": "Databases",
+        "type": "database",
+        "slug": "postgresql"
+    },
+    {
+        "name": "MySQL",
+        "category": "Databases",
+        "type": "database",
+        "slug": "mysql"
+    },
+    {
+        "name": "NoSQL",
+        "category": "Databases",
+        "type": "database",
+        "slug": ""
+    },
+    {
+        "name": "Jira",
+        "category": "Project Management",
+        "type": "project_management",
+        "slug": "jira"
+    },
+    {
+        "name": "ClickUp",
+        "category": "Project Management",
+        "type": "project_management",
+        "slug": "clickup"
+    },
+    {
+        "name": "AWS",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": ""
+    },
+    {
+        "name": "Azure",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": ""
+    },
+    {
+        "name": "GitHub",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": "github"
+    },
+    {
+        "name": "GitLab",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": "gitlab"
+    },
+    {
+        "name": "Jenkins",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": "jenkins"
+    },
+    {
+        "name": "Google Analytics",
+        "category": "Project Management",
+        "type": "project_management",
+        "slug": "googleanalytics"
+    },
+    {
+        "name": "Meta Pixel",
+        "category": "Project Management",
+        "type": "project_management",
+        "slug": ""
+    },
+    {
+        "name": "Playwright",
+        "category": "Testing",
+        "type": "testing",
+        "slug": "playwright"
+    },
+    {
+        "name": "Jest",
+        "category": "Testing",
+        "type": "testing",
+        "slug": "jest"
+    },
+    {
+        "name": "Pest",
+        "category": "Testing",
+        "type": "testing",
+        "slug": "pest"
+    }
+]

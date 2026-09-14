@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# mc-angeles
+
+Personal portfolio site for **Mc Rolls Angeles**, a Full Stack Developer. Built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com), and statically exported for GitHub Pages.
+
+## Features
+
+- Profile summary and social links
+- Tech tools grouped by category (frontend, backend, database, DevOps, project management, testing)
+- Education timeline
+- Project list (`/projects`)
+- Work history timeline (`/work-history`)
+
+## Tech Stack
+
+- [Next.js 16](https://nextjs.org) (App Router)
+- [React 19](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [simple-icons](https://github.com/simple-icons/simple-icons) for tool icons
+- [dnd-kit](https://dndkit.com) for drag-and-drop sorting
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the site. The page auto-updates as you edit files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command         | Description                              |
+| --------------- | ---------------------------------------- |
+| `npm run dev`   | Start the development server             |
+| `npm run build` | Build the site as a static export to `out/` |
+| `npm run lint`  | Run ESLint                               |
 
-## Learn More
+## Content
 
-To learn more about Next.js, take a look at the following resources:
+All portfolio content lives in JSON files under `src/lib/files/`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| File                  | Content                                 |
+| --------------------- | --------------------------------------- |
+| `profile.json`        | Name, title, summary, avatar, socials   |
+| `tech_tools.json`     | Tools and their category/type           |
+| `education.json`      | Education history                       |
+| `work_history.json`   | Work experience                         |
+| `projects.json`       | Projects                                 |
+| `recommendation.json` | Recommendations                          |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Types for each are defined in `src/lib/types.ts`, and the data is loaded in `src/lib/data.ts`.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+  app/                 # Routes: home, /projects, /work-history
+  components/          # UI sections and cards
+  lib/
+    data.ts            # Loads and groups the JSON content
+    icons.tsx          # Tool icon mapping
+    types.ts           # TypeScript types
+    files/             # JSON content files
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+The site is configured for static export via `output: "export"` in `next.config.ts`. Building produces the `out/` directory, which is deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
+
+- **User site** (`username.github.io`): the repo must be named `<username>.github.io`. No `basePath` is needed.
+- **Project site** (`username.github.io/<repo>`): add `basePath: "/<repo>"` to `next.config.ts`.
+
+Note that the workflow triggers on pushes to `main`, so make sure the repo's default branch matches (or update the workflow).
