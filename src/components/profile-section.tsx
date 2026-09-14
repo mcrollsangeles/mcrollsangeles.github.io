@@ -43,7 +43,7 @@ export function ProfileSection() {
         setShowPsyduck(true);
         setPsyduckPos({ x: 0, y: 0 });
         if (psyduckTimer.current) clearTimeout(psyduckTimer.current);
-        psyduckTimer.current = setTimeout(() => setShowPsyduck(false), 5000);
+        psyduckTimer.current = setTimeout(() => setShowPsyduck(false), 3000);
     };
 
     const pausePsyduckTimer = () => {
@@ -53,7 +53,7 @@ export function ProfileSection() {
 
     const resumePsyduckTimer = () => {
         if (psyduckTimer.current) clearTimeout(psyduckTimer.current);
-        psyduckTimer.current = setTimeout(() => setShowPsyduck(false), 5000);
+        psyduckTimer.current = setTimeout(() => setShowPsyduck(false), 3000);
     };
 
     const handlePsyduckDragEnd = (event: DragEndEvent) => {
@@ -95,7 +95,7 @@ export function ProfileSection() {
     }, []);
 
     return (
-        <section className="flex flex-col gap-8 py-16 sm:py-20">
+        <section className="flex flex-col gap-8 py-16 sm:pt-20 sm:pb-14">
             <div
                 aria-hidden={!showPsyduck}
                 className={`pointer-events-none fixed inset-0 z-50 flex items-center justify-center transition-opacity duration-500 ${showPsyduck ? "opacity-100" : "opacity-0"

@@ -101,7 +101,7 @@ export function WorkTimeline() {
                                                 isActive ? "step" : undefined
                                             }
                                             className={`relative z-10 h-4 w-4 rounded-full transition-colors ${isActive
-                                                ? "bg-yellow-600 dark:bg-yellow-400"
+                                                ? "bg-yellow-600 dark:bg-yellow-500"
                                                 : "bg-zinc-300 hover:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600"
                                                 }`}
                                         />
