@@ -94,6 +94,14 @@ export function ProfileSection() {
         return () => clearInterval(timer);
     }, []);
 
+    useEffect(() => {
+        if (!summaryDone) return;
+        setShowPsyduck(true);
+        setPsyduckPos({ x: 0, y: 0 });
+        if (psyduckTimer.current) clearTimeout(psyduckTimer.current);
+        psyduckTimer.current = setTimeout(() => setShowPsyduck(false), 3000);
+    }, [summaryDone]);
+
     return (
         <section className="flex flex-col gap-8 py-16 sm:pt-20 sm:pb-14">
             <div
