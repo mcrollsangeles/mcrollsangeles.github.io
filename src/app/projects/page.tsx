@@ -3,6 +3,8 @@ import { ProjectCards } from "@/components/project-cards";
 
 export const metadata: Metadata = {
     title: "Projects",
+    description:
+        "Projects, freelance work, and systems built by Mc Rolls Angeles across government, healthcare, SaaS, and e-commerce.",
 };
 
 export default function ProjectsPage() {

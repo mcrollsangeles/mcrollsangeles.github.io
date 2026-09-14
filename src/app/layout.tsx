@@ -14,12 +14,57 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://mcrollsangeles.github.io";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: `${profile.name} - ${profile.title}`,
     template: `%s · ${profile.name}`,
   },
   description: profile.summary,
+  keywords: [
+    "Full Stack Developer",
+    "Web Developer",
+    "PHP",
+    "JavaScript",
+    "Python",
+    "Laravel",
+    "React",
+    "Next.js",
+    "Node.js",
+    profile.name,
+  ],
+  authors: [{ name: profile.name }],
+  creator: profile.name,
+  publisher: profile.name,
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "profile",
+    url: "/",
+    siteName: profile.name,
+    title: `${profile.name} - ${profile.title}`,
+    description: profile.summary,
+    locale: "en_PH",
+    images: [
+      {
+        url: profile.avatar,
+        alt: profile.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${profile.name} - ${profile.title}`,
+    description: profile.summary,
+    images: [profile.avatar],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -29,6 +74,25 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: profile.name,
+              jobTitle: profile.title,
+              email: profile.email,
+              url: SITE_URL,
+              image: `${SITE_URL}${profile.avatar}`,
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: profile.country,
+              },
+              sameAs: profile.socials.map((social) => social.url),
+            }),
+          }}
+        />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <footer className="border-t border-zinc-200 py-8 dark:border-zinc-800">

@@ -3,6 +3,8 @@ import { WorkTimeline } from "@/components/work-timeline";
 
 export const metadata: Metadata = {
     title: "Work History",
+    description:
+        "Professional work history and career timeline of Mc Rolls Angeles, Full Stack Developer.",
 };
 
 export default function WorkHistoryPage() {
