@@ -33,11 +33,8 @@ export function TechToolsSection({ groups }: { groups: TechGroup[] }) {
                 className={visible ? "animate-fade-slide-in" : "opacity-0"}
             >
                 <h2 className="text-2xl font-bold tracking-tight">Tech Stack</h2>
-                <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
-                    Drag items to reorder within each group.
-                </p>
             </div>
-            <div className="mt-8 space-y-10">
+            <div className="mt-8 grid items-start gap-x-8 gap-y-10 lg:grid-cols-2">
                 {groups.map((group) => (
                     <SortableGroup key={group.type} group={group} />
                 ))}
@@ -86,7 +83,7 @@ function SortableGroup({ group }: { group: TechGroup }) {
                     items={tools.map((tool) => tool.name)}
                     strategy={rectSortingStrategy}
                 >
-                    <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+                    <ul className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
                         {tools.map((tool, index) => (
                             <SortableTool
                                 key={tool.name}

@@ -72,10 +72,52 @@
         "slug": "javascript"
     },
     {
+        "name": "HTML",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "html5"
+    },
+    {
+        "name": "CSS",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "css"
+    },
+    {
+        "name": "TypeScript",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "typescript"
+    },
+    {
+        "name": "Bootstrap",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "bootstrap"
+    },
+    {
+        "name": "Tailwind",
+        "category": "Programming Languages",
+        "type": "frontend",
+        "slug": "tailwindcss"
+    },
+    {
         "name": "Python",
         "category": "Programming Languages",
         "type": "backend",
         "slug": "python"
+    },
+    {
+        "name": "Java",
+        "category": "Programming Languages",
+        "type": "backend",
+        "slug": "openjdk"
+    },
+    {
+        "name": "Spring Boot",
+        "category": "Frameworks & Libraries",
+        "type": "backend",
+        "slug": "springboot"
     },
     {
         "name": "SQL",
@@ -142,6 +184,12 @@
         "category": "DevOps",
         "type": "devops",
         "slug": "jenkins"
+    },
+    {
+        "name": "Firebase",
+        "category": "DevOps",
+        "type": "devops",
+        "slug": "firebase"
     },
     {
         "name": "Google Analytics",

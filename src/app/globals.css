@@ -47,6 +47,65 @@ html {
   animation: pop-in 0.3s ease-out both;
 }
 
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-0.72em) scale(0.94);
+    animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  }
+
+  45% {
+    opacity: 1;
+    transform: translateY(0) scale(1.03);
+    animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+  }
+
+  64% {
+    transform: translateY(-0.3em) scale(1);
+    animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  }
+
+  80% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+  }
+
+  90% {
+    transform: translateY(-0.1em);
+    animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.9s both;
+}
+
+@keyframes stamp-in {
+  0% {
+    opacity: 0;
+    transform: rotate(-8deg) scale(0.6);
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.3, 1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: rotate(2deg) scale(1.06);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.animate-stamp-in {
+  animation: stamp-in 0.5s both;
+}
+
 @keyframes fade-slide-in {
   0% {
     opacity: 0;

@@ -97,7 +97,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="flex-1">{children}</main>
         <footer className="border-t border-zinc-200 py-8 dark:border-zinc-800">
           <div className="mx-auto w-full max-w-6xl px-6 text-sm text-zinc-500 dark:text-zinc-400">
-            © {new Date().getFullYear()} {profile.name}
+            © 2024 {profile.name}
           </div>
         </footer>
       </body>

@@ -131,7 +131,7 @@ export function ProfileSection() {
                         type="button"
                         onClick={toggle}
                         aria-label="That's me!"
-                        className="block h-24 w-24 cursor-pointer rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2"
+                        className="animate-stamp-in block h-24 w-24 cursor-pointer rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2"
                     >
                         {profile.avatar ? (
                             <Image
@@ -171,14 +171,21 @@ export function ProfileSection() {
                         onMouseEnter={show}
                         onMouseLeave={hide}
                         onClick={toggle}
-                        className="cursor-pointer text-3xl font-bold tracking-tight sm:text-4xl"
+                        style={{ animationDelay: "160ms" }}
+                        className="animate-bounce-in cursor-pointer text-3xl font-bold tracking-tight sm:text-4xl"
                     >
                         {profile.name}
                     </h1>
-                    <p className="mt-1 text-lg font-medium text-zinc-600 dark:text-zinc-400">
+                    <p
+                        style={{ animationDelay: "300ms" }}
+                        className="animate-bounce-in mt-1 text-lg font-medium text-zinc-600 dark:text-zinc-400"
+                    >
                         {profile.title}
                     </p>
-                    <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+                    <p
+                        style={{ animationDelay: "420ms" }}
+                        className="animate-fade-slide-in mt-2 text-sm text-zinc-500 dark:text-zinc-400"
+                    >
                         {profile.country} {" | "}
                         <a
                             href={`mailto:${profile.email}`}
